@@ -34,13 +34,13 @@
 #columns {
   background: #141; }
   #columns #main {
-    margin-left: 17em;
+    margin-left: 20em;
     padding: 1em;
     background: white; }
   #columns #side {
     float: left;
-    padding: 1em 2em;
-    width: 13em;
+    padding: 1em 1em;
+    width: 18em;
     background: #141; }
     #columns #side ul {
       padding: 0; }
@@ -49,3 +49,18 @@
         #columns #side ul li a {
           color: #bfb;
           font-size: small; }
+    #side form, div{
+	display: block;
+    }
+    #side input{
+	font-size: small;
+    }
+    #side #cart{
+	font-size: smaller;
+		color: white;
+    }
+    #side #cart table{
+	border-top: 1px dotted #595;
+		      border-bottom: 1px dotted #595;
+		      margin-bottom: 10px;
+    }
