@@ -1,4 +1,4 @@
-# Files in the config/locales directory are used for internationalization
+﻿# Files in the config/locales directory are used for internationalization
 # and are automatically loaded by Rails. If you want to use locales other
 # than English, add the necessary files in this directory.
 #
@@ -19,23 +19,23 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-en:
+cn:
   layouts:
     application:
-      title: "Pragmatic Bookshelf"
-      home: "Home"
-      questions: "Questions"
-      news: "News"
-      contact: "Contact"
+      title: "程序员图书超市"
+      home: "页面"
+      questions: "问题"
+      news: "新闻"
+      contact: "联络"
   store:
     index:
-      title_html: "Your Pragmatic Catalog"
-      btn_html: "Add to Cart"
+      title_html: "您的书屋"
+      btn_html: "加入购物车"
   carts:
     cart:
-      title_cart: "Your Cart"
-      empty: "Empty cart"
-      checkout: "Checkout"
+      title_cart: "我的购物车"
+      empty: "清空购物车"
+      checkout: "付款"
   number:
     currency:
     format:
@@ -46,13 +46,13 @@ en:
       format: "%u%n"
   orders:
     new:
-      legend: "Please Enter Your Details"
+      legend: "请输入送货资料"
     form:
-      name: "Name"
-      address_html: "Address"
+      name: "名称"
+      address_html: "地址"
       email: "E-mail"
-      pay_type: "Pay with"
-      submit: "submit"
+      pay_type: "支付方式"
+      submit: "提交"
   activerecord:
     models:
       order: "pedido"
@@ -62,4 +62,4 @@ en:
         name: "Nomber"
         email: "E-mail"
         pay_type: "Forma de pago"
-  thanks: "Thank you for your order."
+  thanks: "谢谢您的订单."
